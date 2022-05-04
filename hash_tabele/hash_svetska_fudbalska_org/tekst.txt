@@ -1,0 +1,7 @@
+Svetska fudbalska organizacija se priprema za svetsko prvenstvo u fudbali i da bi obezbedila efikasno dodavanje igraca
+na spisak i trazenje koristi hes tablicu sa otvorenim adresiranjem. Za svakog igraca se pamti jedinstvena oznaka
+ime i prezime, reprezentacija za koju nastupa i broj u timu. Oznaka igraca je jedinstvena na nivou cele fudbalske 
+organizacije i satoji se od 3 dela: tri cifre koje predstavljaju kod drzave, jedinstveni 6cifreni broj definisan na nivou drzave,
+i dve zadnje cifre za godinu rodjenja. Napisati funkcije za dodavanje novog igraca, i proveru da li neki igrac ucestvuje
+na prvenstvu. Obezbediti dobro rasipanje sinonima ako je poznato da ce ucestvovati najvise 1000 igraca. Kao sekundarna transformacija
+koristi se kvadratno trazenje.
