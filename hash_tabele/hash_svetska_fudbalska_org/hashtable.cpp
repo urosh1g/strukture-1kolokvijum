@@ -62,7 +62,7 @@ Igrac HashTable::find(char* oznaka){
 	int pos = h(oznaka);
 	for(int i = 0; i < m_size; i++){
 		int index = (pos + c(i)) % m_size;
-		if(!available(index))
+		if(!available(index) && strcmp(array[index].igrac.m_oznaka, oznaka) == 0)
 			return array[index].igrac;
 		if(array[index].status == EMPTY)
 			break;
